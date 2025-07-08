@@ -18,3 +18,4 @@ function generateQuote() {
     document.getElementById("quote").innerText = quotes[randomIndex].text;
     document.getElementById("author").innerText = `- ${quotes[randomIndex].author}`;
 }
+
